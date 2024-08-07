@@ -1,0 +1,78 @@
+/* Reset some default styles */
+body, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #e0e0e0; /* Light gray text for better contrast */
+    background: url('https://images.unsplash.com/photo-1506748686214e9df14a7e0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDJ8fHNwYWNlfGVufDB8fHx8MTY5MTI3MTAyNw&ixlib=rb-1.2.1&q=80&w=1080') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    background: rgba(0, 0, 50, 0.7); /* Dark blue background with transparency */
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Shadow for better contrast */
+}
+
+header {
+    background-color: #1e90ff; /* Bright blue */
+    color: #fff; /* White text */
+    padding: 1rem 0;
+    text-align: center;
+    border-bottom: 5px solid #000; /* Dark border for contrast */
+}
+
+main {
+    padding: 2rem 0;
+}
+
+section {
+    background: rgba(0, 0, 80, 0.9); /* Darker blue background */
+    border: 1px solid #333; /* Slightly lighter border */
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+h1 {
+    color: #1e90ff; /* Bright blue for main heading */
+}
+
+h2 {
+    color: #00bfff; /* Deep sky blue for section headings */
+    border-bottom: 2px solid #00bfff; /* Matching border */
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    background: rgba(0, 0, 100, 0.7); /* Dark blue background for list items */
+    border: 1px solid #444; /* Slightly lighter border */
+    border-radius: 5px;
+    margin: 0.5rem 0;
+    padding: 0.75rem;
+    color: #e0e0e0; /* Light gray text for better readability */
+}
+
+footer {
+    background-color: #1e90ff; /* Bright blue for footer */
+    color: #fff; /* White text */
+    text-align: center;
+    padding: 1rem 0;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
